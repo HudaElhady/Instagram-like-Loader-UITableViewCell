@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4548A661212DE54B00C7240B /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4548A660212DE54B00C7240B /* ImageTableViewCell.swift */; };
 		4590EFAC2128326100403BFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4590EFAB2128326100403BFB /* AppDelegate.swift */; };
 		4590EFAE2128326100403BFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4590EFAD2128326100403BFB /* ViewController.swift */; };
 		4590EFB12128326100403BFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4590EFAF2128326100403BFB /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4548A660212DE54B00C7240B /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
 		4590EFA82128326100403BFB /* InstagramLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4590EFAB2128326100403BFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4590EFAD2128326100403BFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				4590EFAB2128326100403BFB /* AppDelegate.swift */,
 				4590EFAD2128326100403BFB /* ViewController.swift */,
+				4548A660212DE54B00C7240B /* ImageTableViewCell.swift */,
 				4590EFAF2128326100403BFB /* Main.storyboard */,
 				4590EFB22128326100403BFB /* Assets.xcassets */,
 				4590EFB42128326100403BFB /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4548A661212DE54B00C7240B /* ImageTableViewCell.swift in Sources */,
 				4590EFAE2128326100403BFB /* ViewController.swift in Sources */,
 				4590EFAC2128326100403BFB /* AppDelegate.swift in Sources */,
 			);
@@ -275,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6C9UD89CEN;
 				INFOPLIST_FILE = InstagramLoader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Huda-Elhady.InstagramLoader";
@@ -289,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6C9UD89CEN;
 				INFOPLIST_FILE = InstagramLoader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Huda-Elhady.InstagramLoader";
